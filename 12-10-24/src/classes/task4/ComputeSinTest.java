@@ -1,12 +1,9 @@
-package task2;
+package classes.task4;
 
 import javafx.application.Application;
-import javafx.scene.Group;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
-public class TableTest extends Application {
+public class ComputeSinTest extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -14,7 +11,7 @@ public class TableTest extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Table table = new Table(1, 101, 100);
-        table.makeTable();
+        ComputeSin computeSin = new ComputeSin();
+        computeSin.makeTable();
     }
 }

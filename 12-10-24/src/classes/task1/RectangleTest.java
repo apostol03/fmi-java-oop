@@ -1,4 +1,4 @@
-package task1;
+package classes.task1;
 
 import javafx.application.Application;
 import javafx.scene.Group;
