@@ -6,7 +6,7 @@ public class Probability {
         int allowedNumbers = 0;
         int divisibleBy12 = 0;
         for (int i = 0; i < 99999; i++) {
-            int digit1 = (i / 10000) % 10;
+            int digit1 = i / 10000;
             int digit2 = (i / 1000) % 10;
             int digit3 = (i / 100) % 10;
             int digit4 = (i / 10) % 10;
